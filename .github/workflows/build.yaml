@@ -16,7 +16,7 @@ jobs:
       matrix:
         include:
           - platform: linux
-            os: debian-bookworm
+            os: debian-latest
             arch: arm64
 
     steps:
